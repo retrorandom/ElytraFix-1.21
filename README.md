@@ -1,3 +1,7 @@
+This is a project to port over this mod to 1.21+ this is meant for the players of MinecraftOnline to be able to use elytras when the server updates or the people that play on 1.21+
+
+
+# ORIGNAL DESCRIPTION
 This mod fixes: Elytra Deployment & Elytra Landing, so that they work better even with server lag and such. Every client modpack should have it.
 
 ** This mod requires at least Forge version 2860, and is currently only for MC Java Edition 1.12.2
