@@ -1,9 +1,11 @@
 {
-    "compatibilityLevel": "JAVA_8",
-    "package": "com.mystic.elytrafix.mixin",
-    "refmap": "refmap.elytrafix.json",
-    "client": [
-        "MixinEntityLivingBase",
-        "MixinEntityPlayerSP"
-    ]
+  "required": true,
+  "package": "lol.retrorandom.elytrafix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
