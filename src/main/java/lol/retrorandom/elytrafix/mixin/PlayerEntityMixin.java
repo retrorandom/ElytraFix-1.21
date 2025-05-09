@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(PlayerEntity.class)
 public class PlayerEntityMixin {
-
+// this probably does not work.
     @Inject(method = "tick", at = @At("TAIL"))
     private void modifyElytraDescent(CallbackInfo ci) {
         if (((PlayerEntity) (Object) this).isFallFlying()) {
